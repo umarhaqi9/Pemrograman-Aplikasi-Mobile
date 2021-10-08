@@ -42,6 +42,8 @@ public class LibraryActivity extends AppCompatActivity {
         daftarAudio.add(new SumberAudio("Fart", "Fart Noise", "android.resource://" + getPackageName() + "/" + R.raw.fart));
         daftarAudio.add(new SumberAudio("Scream In Harmony", "ONE OK ROCK - Clock Strikes", "android.resource://" + getPackageName() + "/" + R.raw.scream));
         daftarAudio.add(new SumberAudio("Fire Crackers","Fire","android.resource://"+getPackageName() + "/"+ R.raw.fire));
-
+        daftarAudio.add(new SumberAudio("Crow","Crow Howl","android.resource://"+getPackageName() + "/"+ R.raw.crow));
+        daftarAudio.add(new SumberAudio("Dial","Phone Dial","android.resource://"+getPackageName() + "/"+ R.raw.dial));
+        daftarAudio.add(new SumberAudio("Laughs","Baby Laughs","android.resource://"+getPackageName() + "/"+ R.raw.laugh));
     }
 }

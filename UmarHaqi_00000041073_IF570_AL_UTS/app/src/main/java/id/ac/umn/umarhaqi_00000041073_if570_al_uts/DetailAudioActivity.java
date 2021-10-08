@@ -33,4 +33,11 @@ public class DetailAudioActivity extends AppCompatActivity {
         play_button.setOnClickListener(view -> media.start());
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
+
+    @Override
+    protected void onStop(){
+        super.onStop();
+        media.release();
+        media = null;
+    }
 }

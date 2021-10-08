@@ -6,4 +6,5 @@
     <string name="hyperlink3"><a href="https://soundbible.com/tags-short.html">https://soundbible.com/tags-short.html</a></string>
     <string name="hyperlink4"><a href="https://drive.google.com/file/d/1c23aGhJCTxaTH0bcVJV-P2PSuihDSWls/view">RecyclerView.zip</a></string>
     <string name="hyperlink5"><a href="https://stackoverflow.com/questions/40584424/simple-android-recyclerview-example">stackoverflow.com/questions/40584424/simple-android-recyclerview-example</a></string>
+    <string name="hyperlink6"><a href="https://developer.android.com/guide/topics/media/mediaplayer">https://developer.android.com/guide/topics/media/mediaplayer</a></string>
 </resources>

@@ -56,33 +56,46 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:linksClickable="true"
-                android:text="@string/hyperlink1"/>
+                android:autoLink="web"
+                android:text="https://youtu.be/JkVdP-e9BCo"/>
             <TextView
                 android:id="@+id/referensi2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:linksClickable="true"
-                android:text="@string/hyperlink2"/>
+                android:autoLink="web"
+                android:text="https://youtu.be/tL9fCKC2lNA"/>
             <TextView
                 android:id="@+id/referensi3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:linksClickable="true"
-                android:text="@string/hyperlink3"/>
+                android:autoLink="web"
+                android:text="https://soundbible.com/tags-short.html"/>
             <TextView
                 android:id="@+id/referensi4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:linksClickable="true"
-                android:text="@string/hyperlink4"/>
+                android:textAlignment="center"
+                android:autoLink="web"
+                android:text="https://drive.google.com/file/d/1c23aGhJCTxaTH0bcVJV-P2PSuihDSWls/view"/>
             <TextView
                 android:id="@+id/referensi5"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:linksClickable="true"
-                android:text="@string/hyperlink5"
+                android:autoLink="web"
+                android:text="https://stackoverflow.com/questions/40584424/simple-android-recyclerview-example"
                 android:textAlignment="center"/>
-
+            <TextView
+                android:id="@+id/referensi6"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:linksClickable="true"
+                android:autoLink="web"
+                android:text="https://developer.android.com/guide/topics/media/mediaplayer"
+                android:textAlignment="center"/>
 
         </LinearLayout>
 
