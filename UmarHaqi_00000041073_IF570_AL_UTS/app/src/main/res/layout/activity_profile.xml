@@ -96,6 +96,22 @@
                 android:autoLink="web"
                 android:text="https://developer.android.com/guide/topics/media/mediaplayer"
                 android:textAlignment="center"/>
+            <TextView
+                android:id="@+id/referensi7"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:linksClickable="true"
+                android:autoLink="web"
+                android:text="https://developer.android.com/training/appbar/actions#java"
+                android:textAlignment="center"/>
+            <TextView
+                android:id="@+id/referensi8"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:linksClickable="true"
+                android:autoLink="web"
+                android:text="https://stackoverflow.com/questions/32671004/how-to-change-the-color-of-a-button"
+                android:textAlignment="center"/>
 
         </LinearLayout>
 

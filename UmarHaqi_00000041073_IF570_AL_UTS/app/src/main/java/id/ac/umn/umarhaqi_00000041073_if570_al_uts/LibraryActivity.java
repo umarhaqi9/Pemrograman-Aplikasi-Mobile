@@ -6,6 +6,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.Toast;
 
 import java.util.LinkedList;
@@ -25,7 +27,7 @@ public class LibraryActivity extends AppCompatActivity {
         Toast.makeText(this, "Selamat Datang, " + name, Toast.LENGTH_LONG).show();
 
         getSupportActionBar().setTitle(name);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         isiDaftarAudio();
         iniRv = (RecyclerView) findViewById(R.id.iniRv);
@@ -45,5 +47,25 @@ public class LibraryActivity extends AppCompatActivity {
         daftarAudio.add(new SumberAudio("Crow","Crow Howl","android.resource://"+getPackageName() + "/"+ R.raw.crow));
         daftarAudio.add(new SumberAudio("Dial","Phone Dial","android.resource://"+getPackageName() + "/"+ R.raw.dial));
         daftarAudio.add(new SumberAudio("Laughs","Baby Laughs","android.resource://"+getPackageName() + "/"+ R.raw.laugh));
+    }
+
+    public boolean onCreateOptionsMenu(Menu menu){
+        getMenuInflater().inflate(R.menu.toolbar, menu);
+        return true;
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.profile:
+                Intent profileIntent = new Intent(LibraryActivity.this,ProfileActivity.class);
+                startActivity(profileIntent);
+                return true;
+            case R.id.home:
+                Intent homeIntent = new Intent(LibraryActivity.this,MainActivity.class);
+                startActivity(homeIntent);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }
