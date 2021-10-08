@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UmarHaqi_00000041073_IF570_AL_UTS</string>
+
+    <string name="hyperlink1"><a href="https://youtu.be/JkVdP-e9BCo">https://youtu.be/JkVdP-e9BCo</a></string>
+    <string name="hyperlink2"><a href="https://youtu.be/tL9fCKC2lNA">https://youtu.be/tL9fCKC2lNA</a></string>
+    <string name="hyperlink3"><a href="https://soundbible.com/tags-short.html">https://soundbible.com/tags-short.html</a></string>
+    <string name="hyperlink4"><a href="https://drive.google.com/file/d/1c23aGhJCTxaTH0bcVJV-P2PSuihDSWls/view">RecyclerView.zip</a></string>
+    <string name="hyperlink5"><a href="https://stackoverflow.com/questions/40584424/simple-android-recyclerview-example">stackoverflow.com/questions/40584424/simple-android-recyclerview-example</a></string>
+</resources>
