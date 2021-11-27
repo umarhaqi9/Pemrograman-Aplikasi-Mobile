@@ -24,6 +24,7 @@ import java.util.List;
 
 import id.ac.umn.week13_41073.databinding.ActivityMapsBinding;
 
+
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private UiSettings mUiSettings;
